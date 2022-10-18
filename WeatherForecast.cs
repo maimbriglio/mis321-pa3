@@ -1,4 +1,4 @@
-namespace mis321_pa3;
+namespace mai_pa3;
 
 public class WeatherForecast
 {

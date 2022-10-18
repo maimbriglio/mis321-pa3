@@ -1,4 +1,4 @@
-namespace michaelimbriglio.MIS321.mis321_pa3
+namespace michaelimbriglio.MIS321.mai_pa3
 {
     public class ConnectionString
     {

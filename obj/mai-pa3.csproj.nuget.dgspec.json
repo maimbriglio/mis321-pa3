@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michaelimbriglio/MIS321/mis321-pa3/mis321-pa3.csproj": {}
+    "/Users/michaelimbriglio/MIS321/mai-pa3/mai-pa3.csproj": {}
   },
   "projects": {
-    "/Users/michaelimbriglio/MIS321/mis321-pa3/mis321-pa3.csproj": {
+    "/Users/michaelimbriglio/MIS321/mai-pa3/mai-pa3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michaelimbriglio/MIS321/mis321-pa3/mis321-pa3.csproj",
-        "projectName": "mis321-pa3",
-        "projectPath": "/Users/michaelimbriglio/MIS321/mis321-pa3/mis321-pa3.csproj",
+        "projectUniqueName": "/Users/michaelimbriglio/MIS321/mai-pa3/mai-pa3.csproj",
+        "projectName": "mai-pa3",
+        "projectPath": "/Users/michaelimbriglio/MIS321/mai-pa3/mai-pa3.csproj",
         "packagesPath": "/Users/michaelimbriglio/.nuget/packages/",
-        "outputPath": "/Users/michaelimbriglio/MIS321/mis321-pa3/obj/",
+        "outputPath": "/Users/michaelimbriglio/MIS321/mai-pa3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/michaelimbriglio/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "mysql.data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
             }
           },
           "imports": [
