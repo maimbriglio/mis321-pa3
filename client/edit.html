@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/styles/index.css">
+    <script src="./resources/scripts/index.js"></script>
+    <title>Edit a Driver rating</title>
+</head>
+<body>
+    <div class="jumbotron"><h1>Enter the name of the driver who's rating is being edited.</h1>
+    <h1>Enter the new rating for the driver.</h1></div>
+    <form onsubmit="editDriver()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+       <label for="rating">Rating:</label>
+        <input type="number" min ="0" max="5" id="rating" name="rating"><br><br>
+    </form>
+    <div class="text-center"><button onclick="editDriver()">Submit</button></div>
+    <div class="text-center"><button onclick="homePage()">Return</button></div>
+    
+</body>
+</html>

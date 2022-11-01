@@ -1,0 +1,87 @@
+.jumbotron{
+    background-color: maroon;
+    color: white;
+}
+h1 {text-align: center;}
+
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .btn-group button {
+    background-color: maroon; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .btn-group button:hover {
+    background-color: red;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  button {
+    text-align: center;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  #driverTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #driverTable td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #driverTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #driverTable tr:hover {background-color: #ddd;}
+  
+  #driverTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: maroon;
+    color: white;
+  }
+
+  body {
+    background-color: lightgray;
+  }
+
+  .container {
+    height: 200px;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
