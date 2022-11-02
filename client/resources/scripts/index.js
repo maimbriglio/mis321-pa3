@@ -1,7 +1,5 @@
 
 let app = document.getElementById("app")
-let taskCount = 0
-let toDos = JSON.parse(localStorage.getItem('myToDos')) ? JSON.parse(localStorage.getItem('myToDos')) : []
 const baseUrl = "https://localhost:7159/api/Driver"
 
 
@@ -9,9 +7,7 @@ function handleOnLoad()
 {
     
     createDriverTable()
-    // sortByDate()
-    sortTable()
-
+   
 }
 
 function getDrivers()
@@ -215,12 +211,6 @@ function homePage(){
 }
 
 
-function dateTime(){
-    const date = new Date();
-    const n = date.toString();
-    console.log('Date: '+ n);
-
-}
 
 function sortByDate() {
     var tbody = document.querySelector("#driverTableBody");
